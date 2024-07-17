@@ -1,0 +1,53 @@
+.patient-head-name{
+    background-color:#3E507E;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 28px;
+    color:white;
+}
+.inner-top-section{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height:45%;
+    margin-top: 15px;
+}
+.inner-top-section2{
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 70%; */
+    /* height:45%; */
+    margin-top: 15px;
+}
+.patientlist{
+    background-color: #3E507E;
+    border-radius: 12px;
+    height: 25px;
+    text-align: center;
+    width:90px;
+    list-style: none;
+    margin-top: 7px;
+    margin-right:12px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.patientlist2{
+    background-color:#1D263D;
+    border-radius: 12px;
+    height: 25px;
+    text-align: center;
+    width:90px;
+    list-style: none;
+    margin-top: 7px;
+    margin-right:12px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}

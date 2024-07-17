@@ -1,0 +1,24 @@
+.PatientHistory{
+    width: 100%;
+    height: 87%;
+    /* margin: 10px; */
+    /* margin-left: 12px; */
+    border-radius: 14px;
+    margin-top: 0px;
+    /* background-color: aqua; */
+    overflow-y: auto;
+    background: linear-gradient(213deg, #d8eeff, transparent);
+}
+.Queuelistitem{
+    position: relative;
+    /* background-color: rgb(251, 251, 251); */
+    border: 1px white solid;
+    padding-left: 10px;
+    height: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.queueDate{
+    position:absolute;
+   left:13%;
+}

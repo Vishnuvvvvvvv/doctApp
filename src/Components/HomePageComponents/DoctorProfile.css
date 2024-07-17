@@ -1,0 +1,180 @@
+/* .doctor-profile-container{
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    height: 25%;
+    margin-bottom: 22px;
+    border-radius: 12px;
+    display: flex;
+    padding: 12px 12px;
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 6px, transparent 6px) 0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/8px 8px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 4px) calc(100% - 16px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 4px) no-repeat,
+    linear-gradient(407deg, transparent 0%, #1ca4ed 50%);
+border-radius: 8px;
+padding: 10px;
+box-sizing: border-box;
+}
+
+.photo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.prof-content{
+    width: 68%;
+    margin: 11px auto;
+    border-radius: 19px;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border: 2px #c7daec solid;
+    box-sizing: border-box;
+}
+
+.prof_head{
+margin:0 0 20px 0;
+
+}
+
+.prof_para{
+    margin:0 0 20px 10px;
+}
+.doct_pic{
+    border-radius: 50%;
+    height: 11rem;
+    width: 10rem;
+} */
+/* .background-image-profile{
+    background-image: url('../../../public/profileCover.jpg');
+    height:90vh; 
+
+    background-size: cover;
+    
+} */
+
+.doctor-profile-container{
+    background-image: url('../../../public/Untitled design new.jpg'); 
+  
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    min-width:100%;
+    padding-top: 10vh;
+    /* position: relative; */
+   
+      
+}
+/* .circle{
+    background-color: rgb(66, 135, 195);
+    position: absolute;
+    width:10%;
+    height:10%;
+} */
+.photo{
+    width: 344px;
+    height:100%;
+    border-radius: 50%;
+    /* height: 280px; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, rgba(140,82,255,1) 0%, rgba(92,225,230,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* background-image: url(/public/circle.jpg); */
+}
+.photomain{
+position:relative;
+/* background-color: aquamarine; */
+
+}
+.prof_div{
+    display: flex;
+    /* background-color: blue; */
+    width: 60%;
+    margin: 0 auto;
+    position: absolute;
+    left: 14%;
+    top: 17%;
+    height: 333px;
+
+}
+.prof-content{
+    padding-left: 4rem;
+    width: 50%;
+    height: 40vh;
+    /* left: 1%; */
+    top: 14%;
+    /* width: 21rem; */
+    position: relative;
+    /* background-color: aliceblue; */
+}
+
+.prof_head{
+  height:20%;
+  width:172%;
+  /* background-color: aqua; */
+  font-size: 2.3rem;
+}
+
+.prof_para{
+    height:20%;
+}
+.float-but1{
+    position: absolute;
+    left: -52px;
+    top: 114px;
+    font-size: 0.9rem;
+    color: white;
+    /* min-width: 8rem; */
+    border: none;
+    text-align: center;
+    padding: 3px 9px;
+    border-radius: 19px;
+    background: linear-gradient(90deg, rgba(140,82,255,1) 0%, rgba(92,225,230,1) 100%);
+
+}
+.float-but2{
+    position: absolute;
+    left: 229px;
+    top: 25px;
+    font-size: 0.9rem;
+    color: white;
+    /* min-width: 8rem; */
+    border: none;
+    text-align: center;
+    padding: 3px 9px;
+    border-radius: 19px;
+    background: linear-gradient(90deg, rgba(140,82,255,1) 0%, rgba(92,225,230,1) 100%);
+
+}
+.float-but3{
+    position: absolute;
+    left: 179px;
+    top: 324px;
+    font-size: 0.9rem;
+    color: white;
+    /* min-width: 8rem; */
+    border: none;
+    text-align: center;
+    padding: 3px 9px;
+    border-radius: 19px;
+    background: linear-gradient(90deg, rgba(140,82,255,1) 0%, rgba(92,225,230,1) 100%);
+
+}
+
+.doct_pic{
+    border-radius:50%;
+    width:89%;
+}

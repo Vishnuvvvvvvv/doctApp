@@ -1,0 +1,25 @@
+.DisplayPatientSection{
+    width: 97%;
+    height: 95%;
+    /* margin: 10px; */
+    margin-left: 12px;
+    border-radius: 14px;
+    margin-top: 0px;
+    background: linear-gradient(310deg, #d8eeff, transparent);
+
+    border: 2px #c5cdd4 solid;
+   
+    border-radius: 12px;
+    list-style: none;
+}
+.display-section-heading{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:10%;
+    background-color:  rgb(195 228 255);
+    color:white;
+    font-size:1.3rem;
+    border-radius: 12px;
+
+}

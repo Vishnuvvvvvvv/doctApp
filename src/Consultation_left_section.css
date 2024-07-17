@@ -1,0 +1,8 @@
+.consultation-left-section{
+    padding:0px 5px;
+    /* background-color:#bec3dd; */
+    height: 100%;
+    border-radius: 12px;
+    padding-top: 11px;
+    background: linear-gradient(90deg, rgb(191 195 218) 0%, rgb(210 218 238) 25%, rgb(209 217 238) 100%);
+}

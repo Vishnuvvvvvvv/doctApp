@@ -1,0 +1,49 @@
+.threeSectionContainer{
+    /* background-color: aqua; */
+    background-color: aqua;
+    width: 94%;
+    margin: 0 auto;
+    height: 50%;
+    background-color: #E0E7F6;
+    border-radius: 15px;
+    margin-top: 0px;
+    /* min-height: 38%;
+    max-height: 50%; */
+
+
+    /* box-shadow: 0 0 12px rgb(193, 111, 111);
+    margin-bottom: 30px; */
+}
+
+.head-section{
+    background-color: #b5c1dc;
+    height: 12%;
+    padding-top: 12px;
+    /* padding-bottom: 4px; */
+    border-radius: 0.6rem;
+}
+/* vitttor-->nellad-->pattimattom-->edappaluu */
+.insideul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+   
+}
+
+.insideli{
+    text-align: center;
+    color: rgb(64 32 0);
+    background-color: #FFFFFF;
+    font-size: 18px;
+    border: 2px #b4b4ff solid;
+    border-radius: 0.5rem;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+}
+.insideli:hover{
+    color: rgb(194, 104, 210);
+    
+}
+

@@ -1,0 +1,12 @@
+/* Add your styles for today's date here */
+.today {
+    background-color: #ffcccb; /* Set a different background color for today */
+    color: #f00; /* Set a different text color for today */
+  }
+  .DB_calender{
+    height: 273px !important;
+    width: 20%;
+    border: 2px #c5cdd4 solid;
+    border-radius: 21px;
+    /* background:linear-gradient(90deg,white,blue,white); */
+  }

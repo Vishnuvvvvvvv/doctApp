@@ -1,0 +1,68 @@
+.right-first-section{
+display: flex;
+flex-direction: column;
+align-items: stretch; 
+/* background-color: beige; */
+width: 60%;
+height:100%;
+}
+
+.right-second-section{
+    width:40%;
+    background-color:#E0E7F6;
+    border:2px rgb(177, 177, 224) solid;
+    border-radius: 0.9rem;
+    height:100%;
+    /* margin-top: 6px; */
+    /* margin-bottom: -62px; */
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+
+.consultation-right-section{
+    background-color:#F8F7EE;
+    display: flex;  
+   
+    height:100%;
+   
+}
+.single-disease-record{
+    border:2px #b5c1db solid;
+    height:30vh;
+    width:80%;
+    margin:18px auto;
+    background-color: #F8F7EE;
+    border-radius: 1.2rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: 0px -26px 132px #d2d2ff
+
+}
+.date{
+    list-style: none;
+    background-color: #E6EAF2;
+    max-width:100px;
+    border-radius: 2rem;
+    text-align: center;
+    height:30px;
+    padding-top: 4px;
+    border: 2px #d6d6fa solid;
+    border-radius: 9px;
+}
+.disease-name{
+    list-style: none;
+    background-color: #E6EAF2;
+  
+    border-radius: 2rem;
+    text-align: center;
+    height:25px;
+    padding-top: 4px;
+    margin-top: 9px;
+    display: inline-block;
+    margin-left:20px;
+    padding: 4px 8px;
+    /* margin-left:20px;
+    margin-right:20px; */
+   
+}

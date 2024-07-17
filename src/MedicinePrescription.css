@@ -1,0 +1,89 @@
+.Medical-prescription-section{
+       /* width: 80%; */
+       background-color: #DDE4F4;
+       /* margin: auto; */
+       /* align-items: stretch; */
+       height: 87%;
+       overflow-y: auto;
+       /* overflow: auto; */
+       border-radius: 14px;
+    position: relative;
+}
+
+hr{
+   height: 4px;
+   background-color:rgb(95 110 190); ;
+   margin-top: 0;
+}
+h2{
+
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom:2px;
+    color: rgb(231 209 170);
+    text-shadow: 2px 0 5px rgb(160, 60, 60);
+}
+.input_medicine{
+    margin-left: 33px;
+    margin-bottom: 7px;
+    border-radius: 11px;
+    border:2px solid rgb(51, 81, 152);
+    height:35px;
+    font-style: italic;
+    color:rgb(193, 159, 118);
+    
+}
+.medBtn{
+    /* 
+     */
+/* margin-left:35px; */
+/* padding:2px 16px 2px 16px;
+border-radius: 13px;
+border:3px solid rgb(193, 159, 118);
+background-color: antiquewhite; */
+height:30px;
+padding:2px 16px 2px 16px;
+border-radius: 13px;
+border:3px solid rgb(107, 116, 212);
+margin-left: 13px;
+margin-top:5px;
+background-color: rgb(90, 113, 157); 
+}
+.DisBtn1{
+    height:30px;
+    padding:2px 16px 2px 16px;
+    border-radius: 13px;
+    border:3px solid rgb(29, 36, 81);
+    margin-left: 33px;
+    margin-top:55px;
+    background-color: rgb(130, 144, 205);
+    position: absolute;
+    bottom: 45px;
+}
+.DisBtn2{
+    height:30px;
+    padding:2px 16px 2px 16px;
+    border-radius: 13px;
+    border:3px solid rgb(29, 36, 81);
+    margin-left: 33px;
+    margin-top:55px;
+    position: absolute;
+    background-color: rgb(130, 144, 205); 
+    bottom: 5px;
+}
+button:hover{
+
+    background-color: rgb(233, 211, 181);
+}
+.outer-prescription-row{
+display: flex;
+
+background-color:  rgb(221 231 239);
+margin: 2px;
+border-radius: 14px;
+}
+.med-inner-row{
+    display: flex;
+    flex-wrap: wrap;
+   
+}

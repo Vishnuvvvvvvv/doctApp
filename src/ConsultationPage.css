@@ -1,0 +1,20 @@
+/* .consultation-left-section{
+    width:20%;
+    background-color: #9b9898;
+    height:100vh;
+    } */
+.consultation-right-section{
+
+    width:100%;
+    background-color:blue;
+    height:100vh;
+}    
+.consultation-main-body{
+    width: 100%;
+    background-color:#F8F7EE;
+    display: flex;
+    height: 111vh;
+    padding-top: 7px;
+    PADDING-BOTTOM: 7PX;
+}
+

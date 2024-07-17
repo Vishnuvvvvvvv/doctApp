@@ -1,0 +1,29 @@
+.incomming{
+    background-color:rgb(140, 201, 143);
+    display: flex;
+    justify-content: center;
+    max-width:100px;
+    margin-right:70%;
+    margin-left: 5px;
+   border-radius: 14px;
+   margin-top: 6px;
+
+}
+.outgoing{
+    background-color:rgb(52, 144, 57);
+    display: flex;
+    justify-content: center;
+    max-width:120px;
+    margin-left: 70%;
+  border-radius: 14px;
+   padding:4px 4px;
+   margin-top: 6px;
+
+right:2px;
+}
+
+.chat_display{
+
+    /* background-color: rgb(85, 80, 174);
+    overflow-y: auto; */
+}

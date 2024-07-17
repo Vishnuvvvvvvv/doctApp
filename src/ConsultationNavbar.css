@@ -1,0 +1,46 @@
+.consultation-navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2c3d96;
+    color: white;
+    transition: margin-left 0.3s ease;
+    width:100%;
+ 
+  }
+  
+  .consultation-navbar.sidebar-open {
+    margin-left: 300px; /* Adjust based on the width of the sidebar */
+  }
+  .nav-cons-mini{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    transition: 0.3s;
+  }
+  
+  .bar.open {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  .home-link{
+    color: white;
+  }

@@ -1,0 +1,137 @@
+.current-patient-details{
+    background-color: #E0E7F6;
+    height: 38%;
+    width: 100%;
+    text-align: center;
+    /* position: relative; */
+    position: relative;
+    /* border: 2px #b5c1db solid; */
+    border-radius: 2rem;
+    /* margin-bottom: 34px; */
+    padding-bottom: 38px;
+    
+}
+
+.view-profile{
+    background-color: #fff;
+    width:90%;
+    padding:5px 8px;
+    margin-top:15px ;
+    border-radius: 0.5rem;
+    border: none;
+    border:2px #b5c1db solid;
+    /* position: absolute;
+    left:50%;
+    transform: translateX(-50%); */
+}
+.name-phone-section{
+    width:60%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.photo-section{
+    /* background-color: rgb(86, 83, 79); */
+width:40%;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.prof_pic{
+    border-radius:30%;
+    border:2px #b5c1db solid;
+}
+.basic-info{
+    width: 90%;
+    /* background-color: #b5c1dc;
+     */
+     background: linear-gradient(192deg, rgb(115 130 196) 50%, rgb(206 213 225) 33%, rgb(253 254 255) 189%);
+    height: 76%;
+    /* position: absolute; */
+    bottom: 0%;
+    display: flex;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border: 3px #a29ac9 solid;
+    box-shadow: 16px 15px 35px #ffffff;
+}
+.h-name{
+    list-style: none;
+    /* background-color: #fff; */
+    color:white;
+    margin-bottom: 25px;
+    max-width: 80%;
+    min-width: 60%;
+    margin-left: 13px;
+    margin-right: auto;
+    border-radius: .8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size:23px;
+    border:2px #eeeff0 solid;
+    position: relative;
+    top:-23px;
+}
+
+.h-phone{
+    list-style: none;
+    /* background-color: #fff; */
+    color:white;
+    margin-bottom:15px;
+    width:47%;
+    margin-left:11.925px;
+    /* margin-left:auto;
+    margin-right:auto ; */
+    border-radius: .5rem;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 0.2rem;
+    padding-bottom:0.2rem;
+    border:2px #eeeff0 solid;
+    text-shadow: 0 0 3px #3F51B5;
+}
+
+
+
+/*previous diagnosis displaying section*/
+.diagnosisInfo{
+    height:61%;
+    overflow-y:scroll;
+}
+.hr_sep{
+    
+}
+
+/****new  */
+.facility-section {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 5px;
+    justify-content: space-between;
+  }
+  
+  .facility-option {
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .facility-option.active {
+    background-color: #ddd;
+  }
+  
+  .current-patient-details:hover .facility-section {
+    display: flex;
+  }
+  

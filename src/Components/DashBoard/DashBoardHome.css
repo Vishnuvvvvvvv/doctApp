@@ -1,0 +1,25 @@
+.DashBoardHome{
+    height:130vh;
+    /* background-color: blue; */
+}
+.dashB-main-container{
+    display: flex;
+    height:90%;
+}
+.dashB-right-container{
+    height:100%;
+    width:85%;
+    /* background-color: beige; */
+}
+.dashB_top_container{
+    height: 40%;
+    /* background-color: blueviolet; */
+    display: flex;
+    padding: 21px 10px;
+
+}
+.dashB-bottom-container{
+    height: 60%;
+    /* background-color: burlywood; */
+    /* padding: 10px;*/
+}

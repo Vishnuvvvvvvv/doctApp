@@ -1,0 +1,38 @@
+.Messagesection{
+
+  width:100%;
+  border-radius: 12px;
+  background-color:cadetblue;
+  
+  margin-top: 0px;
+
+ 
+   height:83%; 
+
+  overflow-y: auto;
+
+}
+
+.type_section{
+display:flex;
+
+
+width:100%;
+background-color: aqua;
+
+border-radius: 15px;
+
+}
+
+.inputField{
+width:90%;
+
+
+border-radius: 15px;
+}
+
+.MsgBtn{
+  padding:5px 3px;
+  
+border-radius: 5px;
+}

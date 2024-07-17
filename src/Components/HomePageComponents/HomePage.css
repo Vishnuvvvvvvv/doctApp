@@ -1,0 +1,26 @@
+.home_container{
+height:170vh;
+background-color:white;
+padding-top:40px;
+padding-bottom:20px;
+}
+.content{
+    height:80%;
+}
+.first{
+    height:100vh;
+}
+.second{
+    position:relative;
+    height: 100vh;
+  
+    background-image: url('../../../public/PeerSectionFlipped.jpg');
+    background-size: cover;
+}
+.mainHome{
+    /* background-image: url('../../../public/PeerSectionEnlarged.jpg'); */
+    /* background-image: url('../../../public/PeerSection.jpg'); */
+    /* height: 200vh; */
+    /* background-image: url('../../../public/PeerSectionFlipped.jpg'); */
+    /* background-size: cover; */
+}

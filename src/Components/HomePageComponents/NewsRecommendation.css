@@ -1,0 +1,12 @@
+.News_recommendation_container{
+    height: 27%;
+    background-color: bisque;
+    width: 80%;
+    border-radius: 12px;
+    /* margin: 0 auto 10px auto; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    margin-bottom: 42px;
+    /* margin-bottom: 14px;*/
+}

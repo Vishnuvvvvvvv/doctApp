@@ -1,0 +1,13 @@
+.individual-section{
+    background-color: #1d263d;
+    width: 30%;
+    height: 90%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-right: 12px;
+    font-size: 13px;
+    text-align: center;
+}
